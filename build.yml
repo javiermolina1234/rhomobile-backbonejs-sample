@@ -1,0 +1,24 @@
+sdkversion: "4.0.0"
+name: "Rhomobile-Backbone-Sample"
+version: 1.0
+vendor: "rhomobile"
+build: "debug"
+bbver: 6.0
+applog: "rholog.txt"
+iphone:
+  configuration: "Debug"
+  sdk: "iphonesimulator6.0"
+  provisionprofile: 
+  codesignidentity: 
+  entitlements: 
+  BundleIdentifier: "com.rhomobile.backbonesample"
+  BundleURLScheme: "backbonesample"
+wp:
+  productid: "4782b110-d76b-0130-e6da-38f6b118e4ff"
+symbian:
+  uid: "0xea3bf91d"
+android:
+  version: 2.1
+extensions:
+  - rho-javascript
+  - rhoconnect-client
