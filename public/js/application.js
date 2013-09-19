@@ -59,7 +59,7 @@ $(document).bind("ready", function() {
 
 		var ProductEditView = Backbone.View.extend({
 			events: {
-				'submit form.edit-product-form' : 'save'
+				'click .save' : 'save'
 			},
 			mirrorAttributes: ["name", "brand"],
 			formHelper: RhoTendon.FormHelper.extend({}),
