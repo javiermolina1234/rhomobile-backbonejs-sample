@@ -33,7 +33,5 @@ unless File.exists? rakefilepath
   exit 1
 end
 
-FileUtils.rm_rf ("rhosimulator/")
-
 load rakefilepath
 
