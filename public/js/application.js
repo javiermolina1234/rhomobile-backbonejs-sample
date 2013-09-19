@@ -11,7 +11,7 @@ $(document).bind("mobileinit", function () {
 });
 
 $(document).bind("ready", function() {
-		Rho.RhoConnectClient.login('user1', 'password');
+		// Rho.RhoConnectClient.login('user1', 'password');
 
 
 		var rhoProductModel = Rho.ORM.addModel(function(model) {
