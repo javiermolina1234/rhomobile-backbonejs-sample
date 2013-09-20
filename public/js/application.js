@@ -104,7 +104,6 @@ $(document).bind("ready", function() {
 		var Router = Backbone.Router.extend({
 
 			routes: {
-				'': 'home',
 				'home' : 'home',
 				'new': 'editProduct',
 				'edit/:id': 'editProduct',
